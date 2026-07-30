@@ -1,9 +1,26 @@
 aid: medibuddy-fka-docsapp
 name: MediBuddy (fka DocsApp)
-description: 'MediBuddy (fka DocsApp) is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'MediBuddy (formerly DocsApp) is India''s largest digital healthcare platform,
+  operated by Phasorz Technologies Private Limited and founded in 2013 by Satish Kannan and
+  Enbasekar Dinadayalane. Launched as DocsApp in 2015 for online doctor consultations, it
+  merged with and rebranded to MediBuddy in June 2020. The consumer platform delivers
+  teleconsultations (chat, video, voice) across 20+ specialties, at-home lab-test bookings,
+  online medicine delivery covering 95%+ of Indian pin codes, and health checks. It is backed
+  by Bessemer Venture Partners, Quadria Capital and Rebright Partners. No public developer /
+  API program was found; product access is via the consumer web and mobile apps.'
 url: https://raw.githubusercontent.com/api-evangelist/medibuddy-fka-docsapp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.medibuddy.in/assets/singleConsult.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Telemedicine
+- Telehealth
+- Doctor Consultation
+- Lab Tests
+- Online Pharmacy
+- Digital Health
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/medibuddy-fka-docsapp-domain-security.yml
 - type: Website
   url: https://www.medibuddy.in/
+- type: Support
+  url: https://faq.medibuddy.in/
+- type: Blog
+  url: https://www.medibuddy.in/blog
+- type: TermsOfService
+  url: https://www.medibuddy.in/terms
+- type: PrivacyPolicy
+  url: https://www.medibuddy.in/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
