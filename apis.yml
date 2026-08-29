@@ -9,6 +9,17 @@ description: 'MediBuddy (formerly DocsApp) is India''s largest digital healthcar
   by Bessemer Venture Partners, Quadria Capital and Rebright Partners. No public developer /
   API program was found; product access is via the consumer web and mobile apps.'
 url: https://raw.githubusercontent.com/api-evangelist/medibuddy-fka-docsapp/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
